@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:darkgray;
+}
+html,body{ 
+    font-size:62.5%;
+    font-family:'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility  ;
+}
+#foto{
+    background-color: ghostwhite;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    border: solid 0.2rem black;
+}
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    border-bottom: solid 0.2rem black;
+}
+#nome{
+    font-size: 3rem;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+#barra{
+    background-color    :ghostwhite;
+    border: solid 0.2rem black;
+    width: 60rem;
+    height: 4rem;
+    border-radius: 3rem;
+    margin-top: 3.2rem;
+    margin-left: 5rem;
+}
+#sing{
+    background-color:darkgray;
+    border: solid 0.2rem black;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 3rem;
+    margin-top: 3.2rem;
+    margin-left: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    background-color:darkgray;
+    border: solid 0.2rem black;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 3rem;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a{
+    background-color    :ghostwhite;
+    border: solid 0.2rem black;
+    width: 45rem;
+    height: 30rem;
+    border-radius: 3rem;
+    margin-top: 16rem;
+    margin-left: 47rem;
+}
